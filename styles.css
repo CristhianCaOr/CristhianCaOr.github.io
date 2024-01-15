@@ -59,10 +59,15 @@ main{
         text-align: center;
     }
     
+    .contenedor-titulos{
+        order: 1;
+    }
+
     .contenedor-foto{
         width: 100%;
         display: flex;
         justify-content: center;
+        order: 2;
     }
     
     
@@ -77,6 +82,7 @@ main{
         text-align: justify;
         padding: 29px;
         font-size: 23px;
+        order: 3;
     }
 }
 
@@ -88,15 +94,18 @@ main{
 @media screen and (min-width: 48em){
 
     .contenedor-principal{
-        display: flex;
-    
+        display: flex;    
+}
+
+.parrafo-1{
+    order: 2;
+}
+
+.contenedor-foto{
+    order: 3;
 }
 
 
-
-    .foto-yo{
-     width: 75%;
-    }
 }
 
 

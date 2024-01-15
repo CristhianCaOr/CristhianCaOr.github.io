@@ -97,6 +97,10 @@ main{
         display: flex;    
 }
 
+.contenedor-titulos{
+    order: 1;
+}
+
 .parrafo-1{
     order: 2;
 }

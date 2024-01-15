@@ -56,7 +56,58 @@ main{
 }
 
 
+
 .foto-yo{
     width: 75%;
     height: auto;
 }
+
+
+/* Empiezan meida quieris */
+
+/* Sm */
+
+@media screen and (min-width: 36em){
+    .contenedor-titulos{
+        width: 100%;
+    }
+
+}
+
+
+
+
+/*Md*/
+
+@media screen and (min-width: 48em){
+
+    .contenedor-principal{
+        display: flex;
+    
+}
+
+
+
+    .foto-yo{
+     width: 75%;
+    }
+}
+
+
+
+
+.nombre, .profesion{
+    width: 100%;
+}
+
+
+
+
+
+/*Lg*/
+
+@media screen and (min-width: 62em){}
+
+/* xl */
+
+@media screen and (min-width: 75em){}

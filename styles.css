@@ -77,8 +77,8 @@ main{
     
     .parrafo-1{
         text-align: justify;
-        padding: 50px;
-        font-size: 23px;
+        padding: 81px;
+        font-size: 26px;
         margin-top: 0px;
     }
 }
@@ -119,7 +119,7 @@ main{
         margin:0px;
     }
 
-
+}
 /*Lg*/
 
 @media screen and (min-width: 62em){}

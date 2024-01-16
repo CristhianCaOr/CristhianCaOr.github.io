@@ -1,8 +1,50 @@
-*{
+ :root{
+    --color-seleccion:rgb(154, 221, 54); 
+ }
+*,
+*::before, 
+*::after{
     box-sizing: border-box;
-    
 }
 
+
+p::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+
+    b::selection{
+        background-color: var(--color-seleccion);
+        color: white;
+    }
+    h1::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+h2::selection{
+    background-color:var(--color-seleccion);
+    color: white;
+    }
+h3::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+h4::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+h5::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+a::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+img::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
 
 
 header{
@@ -10,6 +52,10 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
 }
 
 nav a{

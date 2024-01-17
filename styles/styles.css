@@ -193,8 +193,32 @@ color: gray;
             padding: 0 30px;
         }
 
+        .container-picture-1{
+            display: flex;
+            justify-content: center;
+        }
 
+        .img-acdm-1{
+            max-width: 85%;
+            height: auto;
+           
+        }
    
+
+        .img-acdm-2{
+            max-width: 80%;
+            height: auto;
+           
+        }
+
+        .img-acdm-3{
+            max-width: 85%;
+            height: auto;
+           
+        }
+        
+
+
     }
 
 
@@ -260,7 +284,13 @@ color: gray;
             padding: 0 10px;
         }
 
+        .img-acdm-1,.img-acdm-2 {
+            max-width: 80%;
+            height: auto;
+           
+        }
 
+        
 
 
 

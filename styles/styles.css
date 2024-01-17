@@ -9,6 +9,7 @@
 }
 
 
+
 p::selection{
     background-color: var(--color-seleccion);
     color: white;
@@ -51,6 +52,16 @@ span::selection{
     background-color: var(--color-seleccion);
     color: white;
     }
+
+i::selection{
+        background-color: var(--color-seleccion);
+        color: white;
+        }
+
+b::selection{
+        background-color: var(--color-seleccion);
+        color: white;
+        }
     
 
 header{
@@ -103,8 +114,10 @@ section a:hover{
     transition: 0.3s;
 }
 
+
+
 .parentesis{
-font-size: 10px;
+font-size: 14px;
 color: gray;
 }
 
@@ -158,7 +171,7 @@ color: gray;
 
 
 
-.parrafo-acdm-1{
+.parrafo-acdm{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: justify;
             padding: 0 30px;

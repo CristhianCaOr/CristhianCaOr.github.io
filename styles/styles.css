@@ -1,6 +1,7 @@
  :root{
     --color-seleccion:rgb(6, 196, 189); 
- }
+    --color-rojo: #FF5757;
+}
 
 *,
 *::before, 
@@ -123,6 +124,9 @@ color: gray;
 
 
 
+
+
+
 /* Empiezan meida quieris */
 
 /* Sm */
@@ -180,6 +184,16 @@ color: gray;
         }
    
    
+        .agradecimientos{
+            margin-top: 150px;
+            color: var(--color-rojo);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding: 0 30px;
+        }
+
+
    
     }
 
@@ -195,13 +209,6 @@ color: gray;
 /*Md*/
 
 @media screen and (min-width: 48em){
-
-
-
-
-    
-
-
 
     .contenedor-foto{
         max-width: 100%;
@@ -225,10 +232,52 @@ color: gray;
         margin:0px;
     }
 
+    .acdm{
+        text-align: center;
+        font-family: monospace;
+        font-size: 50px;
+    }
+
+
+
+.parrafo-acdm{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            padding: 0 50px;
+            font-size: 31px;
+        
+        }
+
+
+
+        .agradecimientos{
+    
+            margin-top: 150px;
+            color: var(--color-rojo);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 70px;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
 }
 /*Lg*/
 
-@media screen and (min-width: 62em){}
+@media screen and (min-width: 62em){
+
+
+
+}
 
 /* xl */
 

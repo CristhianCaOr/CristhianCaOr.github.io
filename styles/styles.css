@@ -40,13 +40,18 @@ h5::selection{
     }
 a::selection{
     background-color: var(--color-seleccion);
-    color: white;
+    color: white;   
     }
 img::selection{
     background-color: var(--color-seleccion);
     color: white;
     }
 
+span::selection{
+    background-color: var(--color-seleccion);
+    color: white;
+    }
+    
 
 header{
     display: flex;
@@ -87,9 +92,21 @@ main{
 
 
 
+section a{
+    color: #FF5757;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+section a:hover{
+    color: rgb(53, 53, 119);
+    transition: 0.3s;
+}
 
-
+.parentesis{
+font-size: 10px;
+color: gray;
+}
 
 
 

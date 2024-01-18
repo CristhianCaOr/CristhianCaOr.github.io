@@ -250,7 +250,6 @@ color: gray;
         display: grid;
         grid-template-columns: 15rem;
         gap: 20px;
-        margin-left: auto;
     }
 
 

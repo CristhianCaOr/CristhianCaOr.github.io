@@ -1,4 +1,4 @@
-main, section, hr  {
+main, section, hr, div {
     margin: auto;
     max-width: 1280px;
 }

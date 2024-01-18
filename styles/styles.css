@@ -246,11 +246,20 @@ color: gray;
            
         }
 
+    .container-skills{
+        display: grid;
+        grid-template-columns: 15rem;
+        gap: 20px;
+        margin-left: auto;
+    }
+
+
         .skill{
+            display: grid;
+            grid-template-columns: 15rem;
             width: 15rem;
             height: 15rem;
             border: 1px solid black;
-            margin-left: auto;
             background-color: white;
         }
     

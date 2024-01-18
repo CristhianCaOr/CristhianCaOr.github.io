@@ -175,7 +175,13 @@ color: gray;
     color: var(--porcentaje-bajo);  
 }
 
-
+.lengua{
+    font-size: 30px;
+    text-align: center;
+    color: var(--porcentaje-alto);
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* Empiezan meida quieris */
 
@@ -321,8 +327,13 @@ color: gray;
             max-width: 47.8%;
         }
 
+        .skl-img-esp{
+            max-width: 55%;
+        }
+
         .skl-img-eng{
-            max-width: 47.8%;
+            max-width: 50%;
+
         }
 
 
@@ -397,6 +408,10 @@ color: gray;
     grid-template-columns: 15rem 15rem;
     transition: 0.2s;
  }
+
+
+ .skl-img-eng{
+    max-width: 47%;
 
 
 }

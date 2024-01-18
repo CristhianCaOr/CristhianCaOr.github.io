@@ -253,15 +253,19 @@ color: gray;
     }
 
 
-        .skill{
+        .container-skills{
             display: grid;
             grid-template-columns: 15rem;
             width: 15rem;
             height: 15rem;
+
+        }
+    
+
+        .skill{
             border: 1px solid black;
             background-color: white;
         }
-    
 
         .nombre-skill{
             font-size: xx-large;
@@ -299,6 +303,10 @@ color: gray;
         }
 
 
+        .flex{
+            display: flex;
+            justify-content: center;
+        }
 
 
     }
@@ -365,9 +373,10 @@ color: gray;
            
         }
 
-        
 
-
+ .skill{
+    grid-template-columns: 15rem 15rem;
+ }
 }
 /*Lg*/
 

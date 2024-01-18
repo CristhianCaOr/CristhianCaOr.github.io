@@ -419,4 +419,11 @@ color: gray;
         margin:0px;
     }
 
+
+    .container-skills{
+        grid-template-columns: 15rem 15rem 15rem 15rem;
+        padding-right: 45rem;
+        transition: 0.2s;
+    }
+
 }

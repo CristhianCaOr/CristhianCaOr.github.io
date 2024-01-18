@@ -287,7 +287,13 @@ color: gray;
         transition: 0.2s;
     }
 
-
+    .otras-skills{
+        display: grid;
+        grid-template-columns: 15rem;
+        gap: 20px;
+        place-content: center;
+        transition: 0.2s;
+    }
 
         .nombre-skill{
             font-size: xx-large;
@@ -409,6 +415,11 @@ color: gray;
     transition: 0.2s;
  }
 
+ .otras-skills{
+    grid-template-columns: 15rem 15rem;
+    transition: 0.2s;
+ }
+
 
  .skl-img-eng{
     max-width: 47%;
@@ -424,6 +435,11 @@ color: gray;
         grid-template-columns: 15rem 15rem 15rem;
         transition: 0.2s;
     }
+
+    .otras-skills{
+        grid-template-columns: 15rem 15rem;
+        transition: 0.2s;
+     }
 
 
 }
@@ -450,5 +466,10 @@ color: gray;
         transition: 0.2s;
     }
 
+
+    .otras-skills{
+        grid-template-columns: 15rem 15rem;
+        transition: 0.2s;
+     }
 }
 }

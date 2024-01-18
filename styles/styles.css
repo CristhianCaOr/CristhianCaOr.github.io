@@ -278,6 +278,7 @@ color: gray;
         grid-template-columns: 15rem;
         gap: 20px;
         place-content: center;
+        transition: 0.2s;
     }
 
 
@@ -394,13 +395,9 @@ color: gray;
 
  .container-skills{
     grid-template-columns: 15rem 15rem;
+    transition: 0.2s;
  }
 
-
-
-.otras-habilidades{
-    margin-top: 17rem;
-}
 
 }
 
@@ -410,21 +407,7 @@ color: gray;
 
     .container-skills{
         grid-template-columns: 15rem 15rem 15rem;
-        padding-right: 30rem;
         transition: 0.2s;
-    }
-
-
-.otras-skills{
-    grid-template-columns: 15rem;
-    padding-right: 30rem;
-        transition: 0.2s;
-}
-
-
-    .otras-habilidades{
-        margin-top: 17rem;
-        margin-left: 15rem;
     }
 
 
@@ -449,14 +432,7 @@ color: gray;
 
     .container-skills{
         grid-template-columns: 15rem 15rem 15rem 15rem;
-        padding-right: 48rem;
         transition: 0.2s;
-    }
-
-
-    .otras-habilidades{
-        margin-top: 5rem;
-        margin-left: 1rem;
     }
 
 

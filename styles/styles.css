@@ -123,6 +123,23 @@ color: gray;
 }
 
 
+.advertencia{
+    color: #ff0000;
+}
+
+.advertencia{
+    color: #ff0000;
+}
+
+.advertencia::before
+{
+    content: "( ";
+}
+
+.advertencia::after{
+    content: " ) ";
+}
+
 
 
 
@@ -167,15 +184,16 @@ color: gray;
     }
 
  
-    .acdm{
+    .acdm, .skills{
         text-align: center;
         font-family: monospace;
         font-size: 37px;
+        background-color: beige;
     }
 
 
 
-.parrafo-acdm{
+.parrafo-acdm, .sk-p{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-align: justify;
             padding: 0 30px;
@@ -216,18 +234,13 @@ color: gray;
             height: auto;
            
         }
+
+        }
+
         
 
 
-    }
-
-
-
-
-
-
-
-
+    
 
 
 /*Md*/

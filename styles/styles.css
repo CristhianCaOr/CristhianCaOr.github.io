@@ -277,22 +277,8 @@ color: gray;
         display: grid;
         grid-template-columns: 15rem;
         gap: 20px;
+        place-content: center;
     }
-
-    .otras-skills{
-        display: grid;
-        grid-template-columns: 15rem;
-        gap: 20px;
-    }
-
-        .container-skills{
-            display: grid;
-            grid-template-columns: 15rem;
-            width: 15rem;
-            height: 15rem;
-
-        }
-    
 
 
 
@@ -305,9 +291,7 @@ color: gray;
             padding: 10px;
         }
         
-        .sk-t{
-            margin: 0;
-        }
+      
    
         .separador{
             margin-bottom: 20px;
@@ -340,20 +324,6 @@ color: gray;
             max-width: 47.8%;
         }
 
-
-
-
-        .flex{
-            display: flex;
-            justify-content: center;
-            transition: 0.2s;
-        }
-
-
-
-        .otras-habilidades{
-            margin-top: 50rem;
-        }
 
     }
 
@@ -426,13 +396,7 @@ color: gray;
     grid-template-columns: 15rem 15rem;
  }
 
- .flex{
-    /* display: flex;
-    justify-content: center; */
-    /* background-color: aqua; */
-    padding-right: 15rem;
-    transition: 0.2s;
-}
+
 
 .otras-habilidades{
     margin-top: 17rem;

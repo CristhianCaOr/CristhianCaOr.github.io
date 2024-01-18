@@ -1,6 +1,11 @@
  :root{
     --color-seleccion:rgb(6, 196, 189); 
     --color-rojo: #FF5757;
+    --porcentaje-alto: #01BE63;
+    --porcentaje-medio: #FFDF58;
+    --porcentaje-bajo: #FF3535;
+
+
 }
 
 *,
@@ -10,6 +15,11 @@
 }
 
 
+*[class^="porcentaje"]::after{
+    content: "%";
+    font-size: inherit;
+    color: inherit;
+}
 
 p::selection{
     background-color: var(--color-seleccion);
@@ -144,6 +154,7 @@ color: gray;
 
 
 
+
 /* Empiezan meida quieris */
 
 /* Sm */
@@ -235,12 +246,55 @@ color: gray;
            
         }
 
+        .skill{
+            width: 15rem;
+            height: 15rem;
+            border: 1px solid black;
+            margin-left: auto;
+            background-color: white;
+        }
+    
+
+        .nombre-skill{
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: 0;
+            color: black;
+            padding: 10px;
+        }
+        
+        .sk-t{
+            margin: 0;
+        }
+   
+        .separador{
+            margin-bottom: 20px;
         }
 
+
+        .contenedor-imagenes{
+            display: flex;
+            justify-content: center;
+        }
+
+        .html-img{
+            max-width: 40%;
         
+        }
+
+        .porcentaje-alto{
+            font-size: 40px;
+            text-align: center;
+            color: var(--porcentaje-alto);
+            margin: 10px 0px;
+        }
 
 
-    
+
+
+    }
+
 
 
 /*Md*/
@@ -304,13 +358,6 @@ color: gray;
         }
 
         
-
-
-
-
-
-
-
 
 
 }

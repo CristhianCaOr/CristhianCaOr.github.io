@@ -306,6 +306,7 @@ color: gray;
         .flex{
             display: flex;
             justify-content: center;
+            transition: 0.2s;
         }
 
 
@@ -374,15 +375,31 @@ color: gray;
         }
 
 
- .skill{
+
+ .container-skills{
     grid-template-columns: 15rem 15rem;
  }
+
+ .flex{
+    /* display: flex;
+    justify-content: center; */
+    /* background-color: aqua; */
+    padding-right: 15rem;
+    transition: 0.2s;
+}
+
+
+
 }
 /*Lg*/
 
 @media screen and (min-width: 62em){
 
-
+    .container-skills{
+        grid-template-columns: 15rem 15rem 15rem;
+        padding-right: 30rem;
+        transition: 0.2s;
+    }
 
 }
 

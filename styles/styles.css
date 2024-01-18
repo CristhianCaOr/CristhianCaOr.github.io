@@ -157,7 +157,23 @@ color: gray;
 }
 
 
+.porcentaje-alto, .porcentaje-medio, .porcentaje-bajo {
+    font-size: 40px;
+    text-align: center;
+    color: var(--porcentaje-alto);
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.porcentaje-medio{
+
+    color: var(--porcentaje-medio);
+
+}
+
+.porcentaje-bajo{
+    color: var(--porcentaje-bajo);  
+}
 
 
 
@@ -263,6 +279,11 @@ color: gray;
         gap: 20px;
     }
 
+    .otras-skills{
+        display: grid;
+        grid-template-columns: 15rem;
+        gap: 20px;
+    }
 
         .container-skills{
             display: grid;
@@ -315,23 +336,11 @@ color: gray;
             max-width: 47.8%;
         }
 
-        .porcentaje-alto, .porcentaje-medio, .porcentaje-bajo {
-            font-size: 40px;
-            text-align: center;
-            color: var(--porcentaje-alto);
-            margin: 10px 0px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        .skl-img-eng{
+            max-width: 47.8%;
         }
 
-        .porcentaje-medio{
 
-            color: var(--porcentaje-medio);
-
-        }
-
-        .porcentaje-bajo{
-            color: var(--porcentaje-bajo);  
-        }
 
 
         .flex{
@@ -341,9 +350,15 @@ color: gray;
         }
 
 
+
+        .otras-habilidades{
+            margin-top: 50rem;
+        }
+
     }
 
 
+    
 
 /*Md*/
 
@@ -419,9 +434,12 @@ color: gray;
     transition: 0.2s;
 }
 
-
+.otras-habilidades{
+    margin-top: 17rem;
+}
 
 }
+
 /*Lg*/
 
 @media screen and (min-width: 62em){
@@ -431,6 +449,20 @@ color: gray;
         padding-right: 30rem;
         transition: 0.2s;
     }
+
+
+.otras-skills{
+    grid-template-columns: 15rem;
+    padding-right: 30rem;
+        transition: 0.2s;
+}
+
+
+    .otras-habilidades{
+        margin-top: 17rem;
+        margin-left: 15rem;
+    }
+
 
 }
 
@@ -456,5 +488,12 @@ color: gray;
         padding-right: 48rem;
         transition: 0.2s;
     }
+
+
+    .otras-habilidades{
+        margin-top: 5rem;
+        margin-left: 1rem;
+    }
+
 
 }

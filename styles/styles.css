@@ -525,7 +525,17 @@ color: gray;
   max-width: 15rem;
 
   }
- 
+
+
+.lengua{
+    font-size: 30px;
+    text-align: center;
+    color: var(--porcentaje-alto);
+    margin: 10px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
 
 
 

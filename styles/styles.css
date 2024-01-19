@@ -195,6 +195,7 @@ color: gray;
         display: block;
     }
 
+ 
     .nav {
         opacity: 0;
         visibility: hidden;
@@ -233,9 +234,22 @@ color: gray;
     }
 
 } 
-    
+
+.abrir-menu {
+    background-color: transparent;
+    width: 40px;
+    height: 45px;
+    border: none;
+    font-size: 30px;
+}
 
 
+.cerrar-menu {
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
 
 
 

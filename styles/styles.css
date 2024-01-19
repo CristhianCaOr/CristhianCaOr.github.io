@@ -92,15 +92,7 @@ header{
     width: 100%;
 }
 
-nav a{
- text-decoration: none;
- margin: 7px;
- font-size: 15px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- color: black;
- font-weight: 500;
- transition: 0.2s;
-}
+
 
 nav a:hover{
     color: rgb(0, 238, 255);
@@ -190,7 +182,7 @@ color: gray;
 
 /* boton hamburguesa */
 
-@media screen and  (max-width: 550px){
+@media screen and  (max-width: 568px){
     .abrir-menu, .cerrar-menu{
         display: block;
     }
@@ -233,26 +225,24 @@ color: gray;
         align-items: end;
     }
 
+    .abrir-menu {
+        background-color: transparent;
+        width: 40px;
+        height: 45px;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    
+    .cerrar-menu {
+        font-size: 30px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
 } 
-
-.abrir-menu {
-    background-color: transparent;
-    width: 40px;
-    height: 45px;
-    border: none;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-
-.cerrar-menu {
-    font-size: 30px;
-    background-color: transparent;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
 
 
 
@@ -261,6 +251,19 @@ color: gray;
 /* Sm */
 
 @media screen and (min-width: 1em){
+    
+    nav a{
+        text-decoration: none;
+        margin: 7px;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-weight: 500;
+        transition: 0.2s;
+       }
+    
+    
+    
     .nombre{
         color: #FF5757;
         text-align: center;
@@ -424,6 +427,20 @@ color: gray;
 /*Md*/
 
 @media screen and (min-width: 48em){
+
+    nav a{
+        text-decoration: none;
+        margin: 20px;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-weight: 500;
+        transition: 0.2s;
+       }
+
+
+
+
 
     .contenedor-foto{
         max-width: 100%;

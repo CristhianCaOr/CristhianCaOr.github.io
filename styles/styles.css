@@ -131,7 +131,7 @@ section a:hover{
     margin-left: 20px;
 }
 
-.abrir-menu{
+.abrir-menu, .cerrar-menu{
     display: none;
 }
 
@@ -191,26 +191,45 @@ color: gray;
 /* boton hamburguesa */
 
 @media screen and  (max-width: 550px){
-    /* .abrir-menu{
+    .abrir-menu, .cerrar-menu{
         display: block;
     }
 
-
-    .nav{
-        display: none;
-    } */
-
-
-    .nav{
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: 0;
+        right: 0;
+        background-color: rgb(10, 10, 40);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5) ;
+        
     }
 
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .nav a{
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav a:hover{
+        color: rgb(229, 229, 189);
+        font-weight: bold;
+    }
 
     .nav-list{
         display: flex;
         flex-direction: column;
+        align-items: end;
     }
 
 } 

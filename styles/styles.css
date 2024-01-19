@@ -4,7 +4,7 @@
     --porcentaje-alto: #01BE63;
     --porcentaje-medio: #FFDF58;
     --porcentaje-bajo: #FF3535;
-
+    --color-hover: rgb(53, 53, 119);
 
 }
 
@@ -25,6 +25,11 @@
 *[class^="skill"]{
     border: 2px solid black;
     background-color: white;   
+}
+
+*[class^="skill"]:hover{
+    border: 4px solid black;
+    background-color: rgb(182, 182, 182);  
 }
 
 p::selection{
@@ -95,7 +100,7 @@ header{
 
 
 nav a:hover{
-    color: rgb(0, 238, 255);
+    color: rgb(5, 5, 206);
     transition: 0.2s;
 }
 
@@ -114,7 +119,7 @@ section a{
 }
 
 section a:hover{
-    color: rgb(53, 53, 119);
+    color: var(--color-hover);
     transition: 0.3s;
 }
 
@@ -215,7 +220,7 @@ color: gray;
     }
 
     .nav a:hover{
-        color: rgb(229, 229, 189);
+        color: var(--color-hover);
         font-weight: bold;
     }
 
@@ -299,11 +304,15 @@ color: gray;
     }
 
  
-    .acdm, .skills{
+    .titulos{
         text-align: center;
+        padding: 20px;
         font-family: monospace;
-        font-size: 37px;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 60px;
         background-color: beige;
+        font-weight: bolder;
     }
 
 
@@ -319,7 +328,7 @@ color: gray;
    
         .agradecimientos, .habilidad-titulo{
             margin-top: 150px;
-            color: rgb(53, 53, 119);
+            color: var(--color-rojo);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 40px;
             text-align: center;
@@ -464,7 +473,7 @@ color: gray;
         margin:0px;
     }
 
-    .acdm{
+    .parrafos{
         text-align: center;
         font-family: monospace;
         font-size: 50px;

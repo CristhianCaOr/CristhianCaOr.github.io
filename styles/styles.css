@@ -520,15 +520,9 @@ color: gray;
  }
 
  
- .skill-spanish{
-   
-  max-width: 15rem;
-
-  }
-
 
 .lengua{
-    font-size: 30px;
+    font-size: 31px;
     text-align: center;
     color: var(--porcentaje-alto);
     margin: 10px 0px;

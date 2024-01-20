@@ -95,6 +95,7 @@ header{
     top: 0;
     background-color: white;
     width: 100%;
+    transition: 0.2s;
 }
 
 
@@ -102,6 +103,8 @@ header{
 nav a:hover{
     color: rgb(5, 5, 206);
     transition: 0.2s;
+    box-shadow: 0px 2px 0px rgb(0, 47, 254);
+    font-weight: 500;
 }
 
 
@@ -202,6 +205,7 @@ color: gray;
         position: absolute;
         top: 0;
         right: 0;
+        
         background-color: rgb(10, 10, 40);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5) ;
@@ -217,11 +221,14 @@ color: gray;
     .nav a{
         color: white;
         font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .nav a:hover{
         color: var(--color-hover);
         font-weight: bold;
+        box-shadow: 0 3px 0px rgb(255, 255, 255) ;
     }
 
     .nav-list{
@@ -585,4 +592,4 @@ color: gray;
         transition: 0.2s;
      }
 }
-}
+

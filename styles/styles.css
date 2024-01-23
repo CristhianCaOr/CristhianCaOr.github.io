@@ -32,58 +32,13 @@
     background-color: rgb(182, 182, 182);  
 }
 
-p::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
 
-    b::selection{
-        background-color: var(--color-seleccion);
-        color: white;
-    }
-    h1::selection{
+body  *::selection{
     background-color: var(--color-seleccion);
     color: white;
-    }
-h2::selection{
-    background-color:var(--color-seleccion);
-    color: white;
-    }
-h3::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
-h4::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
-h5::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
-a::selection{
-    background-color: var(--color-seleccion);
-    color: white;   
-    }
-img::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
+}
 
-span::selection{
-    background-color: var(--color-seleccion);
-    color: white;
-    }
 
-i::selection{
-        background-color: var(--color-seleccion);
-        color: white;
-        }
-
-b::selection{
-        background-color: var(--color-seleccion);
-        color: white;
-        }
     
 
 header{

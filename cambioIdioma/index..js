@@ -27,5 +27,9 @@ const parrafoacdm3 = document.getElementById('parrafo-acdm-3')
 
 // variables habilidades
 
+const parrafoHabilidades = document.getElementById('parrafo-habilidades')
+const advertenciaParrafo = document.getElementById('advertencia')
+const habilidadesProgramacion = document.getElementById('tech')
+const misIdiomas = document.getElementById('idiomasQueHablo')
 
 

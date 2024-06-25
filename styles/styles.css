@@ -22,6 +22,86 @@
 
 }
 
+
+/* Inicio estilos de la seleccion del idioma */
+
+.lenguaje{
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+}
+
+.idiomas{
+    padding-left: 0;
+    list-style: none;
+}
+
+.translate{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    margin: auto;
+}
+
+.translate img{
+    width: 15px;
+    height: 15px;
+}
+
+.idioma{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    position: relative;
+    padding: 15px;
+}
+
+.idioma:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+/* lista idioma */
+
+.idiomas{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    display: flex;
+    flex-direction: row;
+    /* visibility: hidden; */
+}
+
+.idiomas li{
+    width: 100%;
+}
+
+.idiomas li a{
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+
+.idiomas li a:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+
+.toggle{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+/* fin estilos seleccion del idioma */
+
 *[class^="skill"]{
     border: 2px solid black;
     background-color: white;   

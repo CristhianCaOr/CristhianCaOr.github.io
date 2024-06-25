@@ -21,6 +21,10 @@ const habilidades = document.getElementsByClassName('boton-habilidades');
 const nombre = document.getElementById('nombre');
 const profesion = document.getElementById('profesion');
 const parrafo1 = document.getElementById('parrafo-inicio');
+let nombreOG = nombre.textContent
+let profesionOG = profesion.textContent
+let parrafo1OG = parrafo1.textContent
+
 
 // variables acerca de mi
 
@@ -38,10 +42,24 @@ const misIdiomas = document.getElementById('idiomasQueHablo')
 
 // codigo de ingles
 
-ingles.addEventListener('click', function(event) {
-    event.preventDefault();
-    nombre.textContent = "El mother fucker";
-})
+function cambioIdiomaInicio(){
+    ingles.addEventListener('click', function(event) {
+        event.preventDefault();
+        nombre.textContent = "El mother fucker";
+    })
+    
+    castellano.addEventListener('click', function(event) {
+        event.preventDefault();
+        nombre.textContent = nombreOG;
+    })
+}
 
+
+
+
+
+
+
+cambioIdiomaInicio()
 
 

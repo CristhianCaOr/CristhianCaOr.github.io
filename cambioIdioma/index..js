@@ -1,4 +1,8 @@
+const idiomaActual = document.getElementsByClassName('translate')
 const idiomas = document.getElementsByClassName('opcion')
+const listaIdiomas = document.getElementById('idiomas')
+
+
 
 // titulos
 const tituloInicio = getElementById('habilidades')
@@ -33,3 +37,21 @@ const habilidadesProgramacion = document.getElementById('tech')
 const misIdiomas = document.getElementById('idiomasQueHablo')
 
 
+// para ver si se agrega a la consola 
+
+
+idiomaActual.addEventListener('click', () => {
+    listaIdiomas.classList.toggle('toggle')
+})
+
+
+const opcionesArray = Array.from(idiomas);
+
+opcionesArray.forEach((opcion) =>{
+    opcion.addEventListener('click', () =>{
+        const idioma = opcion.getElementsByTagName('span')[0].texContent.toLowerCase();
+        
+        console.log(idioma)
+        // establecerIdioma(idioma)
+    })
+}) 

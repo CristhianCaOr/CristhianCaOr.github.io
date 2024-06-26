@@ -215,6 +215,17 @@ color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+.oraganizacion-banderas{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.oraganizacion-banderas span{
+    margin-left: 8px;
+}
+
 /* Empiezan meida quieris */
 
 

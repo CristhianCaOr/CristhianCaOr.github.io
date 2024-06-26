@@ -469,12 +469,12 @@ color: gray;
             max-width: 47.5%;
         }
 
-        .skl-img-js{
-            max-width: 47.8%;
+        .skl-img-fm{
+            max-width: 51.6%;
         }
 
         .skl-img-esp{
-            max-width: 60%;
+            max-width: 63%;
         }
 
         .skl-img-eng{
@@ -482,8 +482,14 @@ color: gray;
 
         }
 
-
+        .skill-spanish{
+            height: 220px;
+        }
     
+        .skill-spanish h2{
+            max-width: 230px;
+            text-align: center;
+        }
 
 
     

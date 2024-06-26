@@ -216,15 +216,7 @@ color: gray;
 }
 
 
-.oraganizacion-banderas{
-display: flex;
-flex-direction: row;
-align-items: center;
-}
 
-.oraganizacion-banderas span{
-    margin-left: 8px;
-}
 
 /* Empiezan meida quieris */
 
@@ -306,6 +298,19 @@ align-items: center;
 
 @media screen and (min-width: 1em){
     
+    .oraganizacion-banderas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+    }
+
+    .oraganizacion-banderas span{
+        margin-left: 8px;
+    }
+
+
+
     nav a{
         text-decoration: none;
         margin: 7px;
@@ -478,7 +483,7 @@ align-items: center;
         }
 
 
-    }
+    
 
 
     
@@ -586,6 +591,17 @@ align-items: center;
         }
 
  
+.oraganizacion-banderas{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.oraganizacion-banderas span{
+    margin-left: 8px;
+}
+
+
 }
 
 
